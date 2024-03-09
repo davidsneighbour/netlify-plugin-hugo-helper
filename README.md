@@ -1,4 +1,4 @@
-This Netlify build plugin adds caching of Hugo resource files to your build process.
+This [Netlify build plugin](https://docs.netlify.com/integrations/build-plugins/) adds caching of [Hugo](https://gohugo.io/) resource files to your build process.
 
 ## Setup
 
