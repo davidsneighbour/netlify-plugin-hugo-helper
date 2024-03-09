@@ -1,7 +1,4 @@
 const defaultStandardVersion = {
-  scripts: {
-    prerelease: "",
-  },
   bumpFiles: [
     {
       filename: "package.json",
@@ -9,8 +6,7 @@ const defaultStandardVersion = {
     },
   ],
   skip: {
-    changelog: true,
-    tag: true
+    changelog: true
   }
 };
 
