@@ -18,9 +18,9 @@
   },
   "scripts": {
     "release": "npm run release:patch",
-    "release:major": "commit-and-tag-version --release-as major --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): hugo-helper v{{currentTag}}\"",
-    "release:minor": "commit-and-tag-version --release-as minor --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): hugo-helper v{{currentTag}}\"",
-    "release:patch": "commit-and-tag-version --release-as patch --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): hugo-helper v{{currentTag}}\""
+    "release:major": "commit-and-tag-version --release-as major --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && git push --follow-tags origin main && npm publish",
+    "release:minor": "commit-and-tag-version --release-as minor --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && git push --follow-tags origin main && npm publish",
+    "release:patch": "commit-and-tag-version --release-as patch --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && git push --follow-tags origin main && npm publish"
   },
   "main": "index.js",
   "type": "module"
