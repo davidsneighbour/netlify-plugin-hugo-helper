@@ -1,0 +1,27 @@
+{
+  "name": "@davidsneighbour/netlify-plugin-hugo-helper",
+  "description": "A Netlify plugin with helper functions for GoHugo deploys.",
+  "version": "0.0.3",
+  "license": "MIT",
+  "repository": "https://github.com/davidsneighbour/netlify-plugin-hugo-helper",
+  "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
+  "bugs": "https://github.com/davidsneighbour/netlify-plugin-hugo-helper/issues",
+  "keywords": [
+    "netlify",
+    "netlify-plugin",
+    "hugo",
+    "gohugo"
+  ],
+  "devDependencies": {
+    "@davidsneighbour/standard-version-config": "^5.9.7",
+    "glob": "^10.3.10"
+  },
+  "scripts": {
+    "release": "npm run release:patch",
+    "release:major": "commit-and-tag-version --release-as major --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): hugo-helper v{{currentTag}}\"",
+    "release:minor": "commit-and-tag-version --release-as minor --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): hugo-helper v{{currentTag}}\"",
+    "release:patch": "commit-and-tag-version --release-as patch --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): hugo-helper v{{currentTag}}\""
+  },
+  "main": "index.js",
+  "type": "module"
+}
