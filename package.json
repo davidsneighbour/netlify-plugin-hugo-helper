@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/netlify-plugin-hugo-helper",
   "description": "A Netlify plugin with helper functions for GoHugo deploys.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "repository": "https://github.com/davidsneighbour/netlify-plugin-hugo-helper",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
