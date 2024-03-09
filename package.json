@@ -13,6 +13,8 @@
     "gohugo"
   ],
   "devDependencies": {
+    "@davidsneighbour/markdownlint-config": "^5.9.7",
+    "@davidsneighbour/remark-config": "^5.9.7",
     "@davidsneighbour/standard-version-config": "^5.9.7",
     "glob": "^10.3.10"
   },
