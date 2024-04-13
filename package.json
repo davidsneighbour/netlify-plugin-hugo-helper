@@ -13,10 +13,10 @@
     "gohugo"
   ],
   "devDependencies": {
-    "@davidsneighbour/markdownlint-config": "^5.9.7",
-    "@davidsneighbour/remark-config": "^5.9.7",
-    "@davidsneighbour/standard-version-config": "^5.9.7",
-    "glob": "^10.3.10"
+    "@davidsneighbour/markdownlint-config": "^2024.3.1",
+    "@davidsneighbour/remark-config": "^2024.3.1",
+    "@davidsneighbour/release-config": "^2024.3.1",
+    "glob": "^10.3.12"
   },
   "scripts": {
     "release": "npm run release:patch",
